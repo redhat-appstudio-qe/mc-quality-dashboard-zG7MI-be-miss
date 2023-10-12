@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-rb5y
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-thlb-tenant/mc-quality-dashboard/backend-quality-dashboard-rb5y@sha256:f41f2c0ad31fa94ba973fcd5ba5912fd366177130aa365871ba52fa9ccd9e457
+        name: quality-backend-dashboard
+        resources: {}
+status: {}
