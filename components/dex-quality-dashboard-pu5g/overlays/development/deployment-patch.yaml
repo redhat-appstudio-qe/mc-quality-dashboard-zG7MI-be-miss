@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dex-quality-dashboard-pu5g
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-thlb-tenant/mc-quality-dashboard/dex-quality-dashboard-pu5g@sha256:04f2b211e744740a424f419e7c89de7b79341af7f57aadaa1175148fe45fa1aa
+        name: dex
+        resources: {}
+status: {}
